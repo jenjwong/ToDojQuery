@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="toDo.css">
+</head>
+<body>
+  <div class='create'>
+    <h1>Make New Item</h1>
+    <input type="text" class='create-input'></input><button class="button-create">Create</button>
+
+  </div>
+  <div>
+    <h1>To Do</h1>
+    <ul class="active">
+      <li class='editMode'><input type="checkbox"><label>Drink all the Hipster Coffees</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+       <li><input type="checkbox"><label>Sleep</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+       <li><input type="checkbox"><label>Drink all the Hipster Coffees</label><input class="show" type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+    </ul>
+  </div>
+  <div>
+    <h1>Completed</h1>
+    <ul class="completed">
+      <li>All the ritalins</li>
+    </ul>
+  </div>
+  <script
+			  src="http://code.jquery.com/jquery-3.1.1.slim.min.js"
+			  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+			  crossorigin="anonymous">
+  </script>
+  <script src='toDo.js'></script>
+</body>
